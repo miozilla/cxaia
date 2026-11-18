@@ -1,5 +1,5 @@
 # cxaia 🛃📠
-cxaia : | Customer Experience | CX Agent Studio |
+cxaia : | Customer Experience | CX Agent Studio, Guardrails, Tool, Web Widget, Channel |
 
 
 ## Objectives
