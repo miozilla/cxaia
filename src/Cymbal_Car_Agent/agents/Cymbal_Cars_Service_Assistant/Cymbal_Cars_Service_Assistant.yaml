@@ -1,0 +1,8 @@
+name: 35d13150-013c-415b-8f23-7f2965424de9
+displayName: Cymbal Cars Service Assistant
+instruction: agents/Cymbal_Cars_Service_Assistant/instruction.txt
+tools:
+- end_session
+childAgents:
+- feedback_agent
+- service_center_finder_agent

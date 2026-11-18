@@ -13,3 +13,6 @@ cxaia : | Customer Experience | CX Agent Studio, Guardrails, Tool, Web Widget, C
 
 
 ## Production Ready CX Agent
+...ci/cd in progress
+
+![cxaia000.png](./media/cxaia000.png)

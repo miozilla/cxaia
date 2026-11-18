@@ -1,0 +1,8 @@
+name: 7e80c39c-454b-4e8a-836c-6340f8a0ea63
+displayName: feedback_agent
+description: This sub-agent collects user feedback / complaints on their cars and
+  services, and files a ticket to the company.
+instruction: agents/feedback_agent/instruction.txt
+tools:
+- end_session
+- feedback

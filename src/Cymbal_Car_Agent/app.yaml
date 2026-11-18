@@ -1,0 +1,33 @@
+name: b5cbfa00-1abf-4acf-a687-42e136ce31d9
+displayName: Cymbal Car Agent
+description: Cymbal Car service agent answers questions about Cymbal Car services
+rootAgent: Cymbal Cars Service Assistant
+audioProcessingConfig:
+  synthesizeSpeechConfigs:
+    en-US: {}
+  inactivityTimeout: 5s
+  ambientSoundConfig: {}
+loggingSettings:
+  redactionConfig:
+    enableRedaction: true
+  audioRecordingConfig:
+    gcsBucket: $env_var
+  bigqueryExportSettings:
+    enabled: true
+    project: $env_var
+    dataset: $env_var
+  cloudLoggingSettings:
+    enableCloudLogging: true
+  conversationLoggingSettings:
+    retentionWindow: 31536000s
+  metricAnalysisSettings: {}
+guardrails:
+- Default Safety Guardrail
+- Default Prompt Guardrail
+languageSettings:
+  defaultLanguageCode: en-US
+defaultChannelProfile: {}
+timeZoneSettings:
+  timeZone: America/Los_Angeles
+toolExecutionMode: PARALLEL
+errorHandlingSettings: {}

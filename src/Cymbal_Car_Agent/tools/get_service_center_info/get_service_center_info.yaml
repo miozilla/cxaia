@@ -1,0 +1,12 @@
+name: 68fd1888-f7a2-488f-9e03-7a8312869554
+pythonFunction:
+  name: get_service_center_info
+  pythonCode: tools/get_service_center_info/python_function/python_code.py
+  description: |-
+    This function returns service center addresses for a given city.
+    Args:
+      city (str): name of the city.
+    Returns:
+      Service center address in the given city.
+executionType: SYNCHRONOUS
+displayName: get_service_center_info

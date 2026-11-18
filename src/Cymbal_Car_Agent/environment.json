@@ -1,0 +1,13 @@
+{
+  "app": {
+    "loggingSettings": {
+      "audioRecordingConfig": {
+        "gcsBucket": "gs://qwiklabs-gcp-03-5e81662672ee-nga-logs"
+      },
+      "bigqueryExportSettings": {
+        "project": "qwiklabs-gcp-03-5e81662672ee",
+        "dataset": "ngalogs"
+      }
+    }
+  }
+}

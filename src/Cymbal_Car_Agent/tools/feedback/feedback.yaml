@@ -1,0 +1,12 @@
+name: b5f44583-3a1d-4bba-b6ef-bf035c061016
+pythonFunction:
+  name: feedback
+  pythonCode: tools/feedback/python_function/python_code.py
+  description: |-
+    Allows the user to provide feedback and returns with the ticket number.
+    Args:
+      message (str): user's feedback
+    Returns:
+      Ticket number.
+executionType: ASYNCHRONOUS
+displayName: feedback
